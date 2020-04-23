@@ -248,7 +248,6 @@ ul,ol,li{
     z-index: 0;
     animation:10s linear 0s normal none infinite down-bg;
 }
-
 @keyframes down-bg{
     from{
         transform: scale(1)
@@ -329,10 +328,12 @@ ul,ol,li{
 /* 广告 */
 .advertising{
     position: relative;
+    float: left;
     height: 402px;
     width: 812px;
     overflow: hidden;
     margin-bottom: 30px;
+    zoom: 1;
 }
 
 .official{
@@ -359,6 +360,44 @@ ul,ol,li{
     vertical-align: bottom;
 }
 
+.arrow {
+    display: none;
+  }
+
+.official:hover .arrow {
+    display: block;
+}
+
+.arrow-left,
+.arrow-right {
+  font-family: "SimSun", "宋体";
+  width: 30px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.arrow-left {
+  left: 0;
+}
+
+.arrow-right {
+  right: 0;
+}
+
 .slideshow-name{
     position: absolute;
     left: 0;
@@ -377,6 +416,10 @@ ul,ol,li{
     background: rgba(0,0,0,.6);
     cursor: pointer;
 } 
+
+.slideshow-name .pale-red{
+    background-color: #f54027;
+}
 
 .cooperation{
     display: block;
@@ -405,7 +448,7 @@ ul,ol,li{
 
 .cooperation-dot{
     position: absolute;
-    left: -190px;
+    left: 0px;
     bottom: 38px;
     width: 100%;
     height: 8px;
@@ -425,15 +468,10 @@ ul,ol,li{
     zoom: 1;
 }
 
-.pale-red{
+.switch .pale-red{
     background-color: #f54027;
 }
 
-.slideshow-name li:first-child,
-.cooperation-dot li:first-child,
-.switch li:first-child{
-    background-color: #f54027;
-}
 
 .switch{
     position: absolute;
@@ -455,5 +493,126 @@ ul,ol,li{
     line-height: 24px;
     color: #fff;
     outline: none;
+    text-align: center;
+}
+
+.switch .show{
+    display: block;
+}
+
+/* 新闻 */
+.news{
+    float: left;
+    width: 388px;
+    height: 402px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+.news-tab{
+    position: relative;
+    height: 392px;
+    padding: 10px 22px 0;
+    overflow: hidden;
+}
+
+.news-hd-content{
+    height: 46px;
+    border-bottom: 1px solid #cecccc;
+}
+
+.news-hd-content li{
+    float: left;
+    width: 70px;
+    padding-right: 15px;
+}
+
+.news-hd-content li a{
+    display: block;
+    height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    color: #727070;
+    text-align: center;
+}
+
+.on{
+    color: #f54027;
+    border-bottom: 1px solid #f54027;
+}
+
+.news-hd-content li:first-child a{
+    color: #f54027;
+    border-bottom: 1px solid #f54027;
+}
+
+.news-bo{
+    position: absolute;
+    left: 2px;
+    bottom: 0;
+    width: 100%;
+    height: 36px;
+    background: #f7f7f7;
+}
+
+.news-ce{
+    padding-top: 18px;
+}
+/* 综合 */
+.news-box{
+    display: block;
+}
+
+.news-content{
+    font-size: 14px;
+}
+
+.top-news{
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.top-news a{
+    color: #f54027;
+    font-weight: bold;
+}
+
+.item{
+    float: left;
+    width: 350px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: dashed #eee 1px;
+    overflow: hidden;
+}
+
+.news-text{
+    float: left;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item a{
+    color: #6c6c6c;
+}
+
+.news-date{
+    float: right;
+    width: 40px;
+    color: #b4b5b5;
+}
+
+.news-bo a{
+    display: block;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #787777;
     text-align: center;
 }
