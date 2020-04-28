@@ -1,0 +1,422 @@
+/* 清除浮动 */
+.clearfix:before ,
+.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    padding-top: 42px;
+    background: url(../images/cfvip-background-img1.jpg) #f7f0dd center 74px no-repeat;
+    padding-top: 74px;
+    font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
+}
+
+.top-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 42px;
+    font-size: 12px;
+    color: #464646;
+    font-family: Tahoma;
+    text-align: left;
+    background: #fff;
+    z-index: 8000;
+    overflow: hidden;
+}
+
+.top-content{
+    position: relative;
+    width: 980px;
+    padding: 0 5px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.top-txyx{
+    width: 95px;
+    height: 42px;
+    padding: 0 15px 0 0;
+    margin: 0 15px 0 0;
+    float: left;
+    background: url(../images/cfvip-txyx-logo.png) no-repeat;
+}
+
+.top-cf-logo{
+    float: left;
+    width: 230px;
+    height: 42px;
+}
+
+.top-cf-logo img{
+    display: block;
+    width: 230px;
+    height: 39px;
+}
+
+.top-text{
+    float: right;
+    height: 42px;
+    line-height: 42px;
+}
+
+.top-bar{
+    float: right;
+}
+
+.top-bar a{
+    color: #464646;
+    border-right: 1px solid #BFC6D7;
+    padding: 0 9px;
+}
+
+.top-return{
+    float: right;
+    width: 80px;
+    padding: 0 0 0 28px;
+}
+
+.top-return a{
+    color: #464646;
+}
+
+.top-content a:hover{
+    color: deepskyblue;
+    text-decoration: underline
+}
+
+.two-box{
+    position: absolute;
+    top: 42px;
+    left: 0;
+    width: 100%;
+    height: 54px;
+    background: url(../images/cfvip-elf-img.png) repeat-x;
+    z-index: 8000;
+}
+
+.two-content{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.two-cf-logo{
+    display: block;
+    float: left;
+    width: 164px;
+    height: 54px;
+    text-indent: -9999em;
+    background: url(../images/cfvip-elf-img.png) 0 -54px no-repeat;
+}
+
+.two-list{
+    float: right;
+    width: 400px;
+}
+
+.two-list li{
+    float: left;
+    padding: 5px 0 5px 30px;
+}
+
+.icon{
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background: url(../images/cfvip-elf-img.png) no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.two-list .xz{
+    background-position: 0 -108px;
+}
+
+.two-list .pp{
+    background-position: -21px -108px;
+}
+
+.two-list .gw{
+    background-position: -42px -108px
+}
+
+.two-list a{
+    color: #b9b9b9;
+    font-size: 14px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.three-box{
+    width: 900px;
+    padding: 48px 0;
+    margin: 0 auto;
+    background: url(../images/cfvip-background-img2.jpg) center 0 no-repeat;
+}
+
+.three-left{
+    width: 186px;
+    float: left;
+}
+
+.cfvip-logo{
+    width: 186px;
+    height: 139px;
+    background-image: url(../images/cfvip-logo.png);
+    background-repeat: no-repeat;
+}
+
+.three-register{
+    padding: 30px 0;
+}
+
+.register{
+    display: block;
+    color: #914405;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.register a{
+    color: #914405;
+}
+
+.register .dredge{
+    display: block;
+    float: none;
+    width: 184px;
+    height: 42px;
+    line-height: 42px;
+    color: #FFE670;
+    font-size: 15px;
+    font-weight: bold;
+    text-indent: 0;
+    text-align: center;
+    margin-top: 20px;
+    background: url(../images/cfvip-small-background-img.png) no-repeat;
+    background-position: 0 -50px;
+}
+
+.cfvip-class{
+    width: 186px;
+}
+
+.three-cfvip-class a{
+    display: block;
+    width: 186px;
+    height: 50px;
+    background: url(../images/cfvip-elf-class.jpg) no-repeat;
+    margin-top: -1px;
+    transition: height .2s ease-out;
+    outline: none;
+}
+
+.three-cfvip-class .class1{
+    background-position: 0 0;
+}
+
+.three-cfvip-class .class2{
+    background-position: 0 -100px;
+}
+
+.three-cfvip-class .class3{
+    background-position: 0 -200px;
+}
+
+.three-cfvip-class .class4{
+    background-position: 0 -300px;
+}
+
+.three-cfvip-class .class5{
+    background-position: 0 -400px;
+}
+
+.three-cfvip-class .class6{
+    background-position: 0 -500px;
+}
+
+.active a{
+    height:100px;
+}
+a.class1{
+    background-position: 0 0
+}
+a.class1:hover,
+.active .class1{
+    background-position: -186px 0
+}
+a.class2{
+    background-position: 0 -100px
+}
+a.class2:hover,
+.active .class2{
+    background-position: -186px -100px
+}
+a.class3{
+    background-position: 0 -200px
+}
+a.class3:hover,
+.active .class{
+    background-position: -186px -200px
+}
+a.class4{
+    background-position: 0 -300px
+}
+a.class4:hover,
+.active .class4{
+    background-position: -186px -300px
+}
+a.class5{
+    background-position: 0 -400px
+}
+a.class5:hover,
+.active .class5{
+    background-position: -186px -400px
+}
+a.class6{
+    background-position: 0 -500px
+}
+a.class6:hover,
+.active .class6{
+    background-position: -186px -500px
+}
+
+.rule{
+    padding-top: 50px;
+}
+
+.rule h1{
+    line-height: 30px;
+    font-size: 14px;
+    color: #804919;
+    border-bottom: 1px solid #caa57d;
+    font-family: "Microsoft YaHei";
+}
+
+.rule li{
+    line-height: 20px;
+}
+
+.rule .rule-ico{
+    display: inline-block;
+    font-size: 20px;
+    color: #7f512b;
+}
+
+.rule .rule-cg{
+    color: #40ac89;
+}
+
+.rule .rule-cr{
+    color: #c46e00;
+}
+
+.three-exclusive{
+    padding-top: 50px;
+}
+
+.three-exclusive h1{
+    line-height: 30px;
+    font-size: 14px;
+    color: #804919;
+    font-family: "Microsoft YaHei";
+}
+
+.three-exclusive li{
+    padding-bottom: 7px;
+}
+
+.three-exclusive img{
+    width: 186px;
+    height: 100px;
+}
+
+.three-right{
+    position: relative;
+    width: 615px;
+    float: left;
+    padding-left: 85px;
+}
+
+.three-top-nav{
+    height: 61px;
+    background: url(../images/cfvip-nav.png) 0 -120px no-repeat;
+}
+
+.navigation{
+    width: 440px;
+    padding-left: 1px;
+    float: left;
+}
+
+.navigation li{
+    float: left;
+}
+
+.navigation a{
+    display: block;
+    width: 110px;
+    line-height: 61px;
+    color: #d1af8b;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    text-decoration: none;
+    background: url(../images/cfvip-nav.png) -110px -60px;
+    transition: background-position .2s ease-out;
+}
+
+.navigation a:hover{
+    color: #fff;
+    background-position: 0 -60px;
+}
+
+.cur a{
+    background-position: 0 -60px;
+    color: #fff;
+    font-weight: bold;}
+
+.navigation-right{
+    float: right;
+    width: 90px;
+    padding: 5px 0 0 0;
+}
+
+.navigation-right a{
+    display: block;
+    width: 80px;
+    height: 23px;
+    line-height: 23px;
+    color: #f2b350;
+    text-align: center;
+    text-decoration: none;
+    background: url(../images/cfvip-nav.png) -520px -60px no-repeat;
+    margin-bottom: 3px;
+}
+
+.three-right-index{
+    display: block;
+    float: left;
+}
+
+.three-right-index-img{
+    position: absolute;
+    top: 61px;
+    left: 63px;
+    width: 657px;
+    height: 791px;
+    background: url(../images/cfvip-privilege.jpg) no-repeat -52px 22px;
+    padding-top: 50px;
+}

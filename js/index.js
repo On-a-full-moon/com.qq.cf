@@ -28,10 +28,10 @@ $('.arrow-right').on('click', function () {
 
 // 自动走
 var timer = setInterval(function () {
-    $('.arrow-right').click();
+    $('.arrow-left').click();
 }, 5000)
 
-$('.rotate')
+$('.official')
     .on('mouseenter', function () {
         // 移除定时器
         clearInterval(timer)
@@ -42,15 +42,9 @@ $('.rotate')
         }, 5000)
     })
 
-// 合作轮播图
-$
-
 // tab切换
 $('.switch li').eq(0).addClass('pale-red')
 $('.switch li').on('click', function () {
     $(this).addClass('pale-red').siblings().removeClass('pale-red')
     $('.official').toggle()
 })
-
-
-// 新闻切换

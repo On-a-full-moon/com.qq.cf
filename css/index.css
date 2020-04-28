@@ -29,6 +29,8 @@ a{
 .top-img{
     background-image: url(../images/index-backgroundimg-top.jpg);
     background-repeat: no-repeat;
+    padding-bottom: 200px;
+    background-position: center top;
 }
 
 .header{
@@ -364,7 +366,7 @@ ul,ol,li{
     display: none;
   }
 
-.official:hover .arrow {
+.official:hover .arrow{
     display: block;
 }
 
@@ -394,6 +396,7 @@ ul,ol,li{
   left: 0;
 }
 
+
 .arrow-right {
   right: 0;
 }
@@ -415,7 +418,7 @@ ul,ol,li{
     color: #fff;
     background: rgba(0,0,0,.6);
     cursor: pointer;
-} 
+}
 
 .slideshow-name .pale-red{
     background-color: #f54027;
@@ -455,6 +458,10 @@ ul,ol,li{
     text-align: center;
     overflow: hidden;
     z-index: 12;
+}
+
+.cooperation-dot .pale-red{
+    background-color: #f54027;
 }
 
 .cooperation-dot li{
@@ -615,4 +622,336 @@ ul,ol,li{
     font-size: 14px;
     color: #787777;
     text-align: center;
+}
+
+/* 活动直播 */
+.f1{
+    float: left;
+}
+
+.act-live{
+    position: relative;
+    margin-right: 18px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.activity{
+    animation: bottom 0.6s ease;
+    margin-bottom: 50px;
+}
+@keyframes bottom { 
+    0% { 
+    transform: translateY(20px);
+    opacity: .2; 
+    }
+  100% { 
+    transform: translateY(0);
+    opacity: 1; 
+    } 
+}
+
+.activity-h2,
+.live-h2,
+.often-h2{
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+    border-bottom: #d9d9d9 solid 1px;
+}
+
+.activity-h2 em{
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/index-elf-img.png);
+    background-repeat: no-repeat;
+    background-position: -72px -60px;
+}
+
+.activity-content,
+.live-content{
+    width: 830px;
+    margin-top: 25px;
+}
+
+.activity-content li{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 90px;
+    margin-right: 4px;
+    overflow: hidden;
+}
+
+.activity-content li img{
+    display: block;
+}
+
+.activity-content img:hover,
+.live-conten img:hover{
+    transform: scale(1.1);
+}
+
+.activity-content .time{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    color: #f7432a;
+    border: #f7432a solid 1px;
+    padding: 0 5px;
+}
+
+.more{
+    position: absolute;
+    top: 10px;
+    right: 2px;
+    height: 18px;
+}
+
+.more a{
+    display: block;
+    width: 40px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #787777;
+}
+
+.live{
+    position: relative;
+    width: 812px;
+    overflow: hidden;
+    animation: bottom 0.6s ease;
+}
+
+.live-h2 em{
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/index-elf-img.png);
+    background-repeat: no-repeat;
+    background-position: 0px -60px;
+}
+
+.live-one{
+    float: left;
+    width: 284px;
+    height: 112px;
+    overflow: hidden;
+}
+
+.fr{
+    float: right;
+}
+
+.fr li{
+    position: relative;
+    width: 176px;
+    height: 112px;
+    margin-right: 4px;
+    overflow: hidden;
+}
+
+.fr a P{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 156px;
+    height: 24px;
+    line-height: 24px;
+    color: #fff;
+    padding: 0 10px;
+    background: rgba(0,0,0,.6);
+}
+
+/* 常用入口 */
+.often{
+    position: relative;
+    width: 370px;
+    font-size: 14px;
+    overflow: hidden;
+    animation: bottom 0.6s ease;
+}
+
+.often-h2 em{
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/index-elf-img.png);
+    background-repeat: no-repeat;
+    background-position: -168px -60px;
+}
+
+.often-content{
+    position: relative;
+    margin-top: 25px;
+    border: 1px solid #dedede;
+    overflow: hidden;
+}
+
+.often-content li{
+    width: 120px;
+    float: left;
+    text-align: center;
+    padding: 1px;
+}
+
+.often-content a{
+    display: block;
+    height: 70px;
+    color: #6c6c6c;
+    padding-top: 5px;
+    background: #f7f7f7;
+    transition:all 0.6s ease-out 0s;
+}
+
+.often-content li a:hover{
+    color: #f54027;
+}
+
+.often-content a:hover{
+    text-decoration: none;color: #fff;
+}
+
+.often-content .bor{
+    border-right: 1px solid #dedede;
+}
+
+.often-content .bob{
+    position:relative;
+    border-bottom: 1px solid #dedede;
+}
+
+.often-content .often-img1{
+    display: block;
+    width: 36px;
+    height: 36px; 
+    margin: 0px auto;
+    background-image: url(../images/index-elf-img.png);
+    background-repeat: no-repeat;
+    background-position: -108px 0px;
+}
+
+.often-content .often-img2{
+    display: block;
+    width: 36px;
+    height: 36px; 
+    margin: 0px auto;
+    background-image: url(../images/index-elf-img.png);
+    background-repeat: no-repeat;
+    background-position: -36px 0px;
+}
+
+.often-content .often-img3{
+    display: block;
+    width: 36px;
+    height: 36px; 
+    margin: 0px auto;
+    background-image: url(../images/index-elf-img.png);
+    background-repeat: no-repeat;
+    background-position: -72px 0px;
+}
+
+.often-content .often-img4{
+    display: block;
+    width: 36px;
+    height: 36px; 
+    margin: 0px auto;
+    background-image: url(../images/index-elf-img.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+
+.often-content .often-img5{
+    display: block;
+    width: 36px;
+    height: 36px; 
+    margin: 0px auto;
+    background-image: url(../images/index-elf-img.png);
+    background-repeat: no-repeat;
+    background-position: -144px 0px;
+}
+
+.often-content .often-img6{
+    display: block;
+    width: 36px;
+    height: 36px; 
+    margin: 0px auto;
+    background-image: url(../images/index-elf-img.png);
+    background-repeat: no-repeat;
+    background-position: -180px 0px;
+}
+
+.often-content .often-img7{
+    display: block;
+    width: 36px;
+    height: 36px; 
+    margin: 0px auto;
+    background-image: url(../images/index-elf-img.png);
+    background-repeat: no-repeat;
+    background-position: -216px 0px;
+}
+
+.often-content .often-img8{
+    display: block;
+    width: 36px;
+    height: 36px; 
+    margin: 0px auto;
+    background-image: url(../images/index-elf-img.png);
+    background-repeat: no-repeat;
+    background-position: -252px 0px;
+}
+
+.often-content .often-img9{
+    display: block;
+    width: 36px;
+    height: 36px; 
+    margin: 0px auto;
+    background-image: url(../images/index-elf-img.png);
+    background-repeat: no-repeat;
+    background-position: -288px 0px;
+}
+
+.search{
+    width: 366px;
+    height: 40px;
+    border: #ddd solid 1px;
+    padding: 1px;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.search-txt{
+    width: 280px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    border: none;
+    outline:none;
+}
+
+.search a{
+    display:inline-block;
+    width:71px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    background: #f7432a;
+}
+
+.search-hot,
+.search-hot a{
+    color: #6c6c6c;
 }
