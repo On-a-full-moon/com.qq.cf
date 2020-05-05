@@ -406,6 +406,7 @@ a.class6:hover,
     margin-bottom: 3px;
 }
 
+/* 首页 */
 .three-right-index{
     display: block;
     float: left;
@@ -419,4 +420,598 @@ a.class6:hover,
     height: 791px;
     background: url(../images/cfvip-privilege.jpg) no-repeat -52px 22px;
     padding-top: 50px;
+}
+
+/* 特权 */
+.three-privilege{
+    width: 615px;
+    float: left;
+    padding-top: 6px;
+}
+
+.privilege-h2{
+    width: 615px;
+    height: 72px;
+    line-height: 72px;
+    background: url(../images/cfvip-text.png) no-repeat 0 0;
+    border-bottom: 1px solid #eddbaf;
+}
+
+.privilege-h3{
+    position: relative;
+    height: 46px;
+    line-height: 46px;
+    padding-left: 20px;
+    width: 595px;
+    font-size: 18px;
+    color: #764215;
+}
+
+.privilege-h3 em{
+    display: block;
+    position: absolute;
+    top: 18px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    font-style: normal;
+    background-color: #7f512b;
+}
+
+.privilege-int{
+    width: 615px;
+    line-height: 26px;
+    color: #4c4d4e;
+    font-size: 14px;
+}
+
+.privilege-one-img{
+    display: block;
+    margin-top: 20px;
+}
+
+.privilege-img{
+    display: block;
+    margin-top: 10px;
+    border: 4px solid #6c6242;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+.privilege-h2-img1{
+    background-position: 0 -72px;
+}
+
+.privilege-h2-img2{
+    background-position: 0 -144px;
+}
+
+.privilege-h2-img3{
+    background-position: 0 -216px;
+}
+
+.privilege-h2-img4{
+    background-position: 0 -792px;
+}
+
+.privilege-h2-img5{
+    background-position: 0 -288px;
+}
+
+.privilege-link{
+    width: 615px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #bf3504;
+    text-decoration: underline;
+}
+
+.privilege-h2-img6{
+    background-position: 0 -360px;
+}
+
+.privilege-h2-img7{
+    background-position: 0 -432px;
+}
+
+.privilege-h2-img8{
+    background-position: 0 -504px;
+}
+
+/* 成长 */
+.three-grow{
+    width: 615px;
+    float: left;
+    padding-top: 6px;
+}
+
+.privilege-h2-img9{
+    background-position: 0 -576px;
+}
+
+.grow-table{
+    width: 615px;
+    border-top: 1px solid #e6cb95;
+    background-color: transparent;
+}
+
+.grow-table .bln{
+    border-left: none;
+}
+
+.grow-table th{
+    width: 62px;
+    height: 39px;
+    color: #946a45;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #e6cb95;
+    border-left: 1px solid #e6cb95;
+    background-color: transparent;
+}
+
+.bln{
+    border-left: none;
+}
+
+.three-grow td{
+    height: 59px;
+    color: #b57b2e;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid #e6cb95;
+    border-left: 1px solid #e6cb95;
+    background-color: transparent;
+}
+
+.three-grow .tbody-text{
+    border-left: none;
+    color: rgb(148, 106, 69);
+}
+
+.three-grow .wrong{
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url(../images/cfvip-right-wrong.png) no-repeat left top;
+    margin: 0 auto;
+}
+
+.three-grow .right{
+    display: block;
+    width: 20px;
+    height: 14px;
+    background: url(../images/cfvip-right-wrong.png) no-repeat left top;
+    background-position: 0 -14px;
+    margin: 0 auto;
+}
+
+.tbody-grade {
+    display: block;
+    width: 16px;
+    height: 18px;
+    background: url(../images/cfvip-img-show3.jpg);
+    margin: 0 auto;
+}
+
+.grow1{
+    background-position: -20px -6px;
+}
+
+.grow2{
+    background-position: -46px -6px;
+}
+
+.grow3{
+    background-position: -72px -6px;
+}
+
+.grow4{
+    background-position: -99px -6px;
+}
+
+.grow5{
+    background-position: -127px -6px;
+}
+
+.grow6{
+    background-position: -155px -6px;
+}
+
+.tbody-img{
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.tbody-img img{
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+.system{
+    background-position: 0 -648px;
+}
+
+.system-text1{
+    position: relative;
+    width: 615px;
+    line-height: 40px;
+    color: #a56d28;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.system-ul{
+    width: 615px;
+    margin-top: 10px;
+}
+
+.system-li{
+    float: left;
+    width: 615px;
+    line-height: 26px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #a56d28;
+}
+
+.system-li em{
+    display: block;
+    float: left;
+    width: 96px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.system-li span{
+    float: left;
+    width: 506px;
+    line-height: 26px;
+    margin-left: 10px;
+}
+
+/* 个人 */
+.three-personal{
+    display: inline;
+    float: left;
+    width: 613px;
+    height: 84px;
+    padding: 10px 0;
+    margin-top: 25px;
+    border: 1px solid #c0a475;
+    background: rgba(251,247,224,0.6);
+}
+
+.personal-top-span{
+    display: block;
+    float: left;
+    width: 203px;
+    height: 84px;
+    border-right: 1px solid #c0a475;
+    overflow: hidden;
+}
+
+.personal-top-span p{
+    width: 204px;
+    line-height: 20px;
+    color: #4c4d4e;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.personal-h3{
+    float: left;
+    width: 578px;
+    height: 25px;
+    line-height: 25px;
+    color: #000;
+    font-size: 22px;
+    font-weight: normal;
+    padding-left: 35px;
+}
+
+.personal-h3-img{
+    background: url(../images/cfvip-personal-img2.png) no-repeat left top;
+}
+
+.mt43{
+    margin-top: 43px;
+}
+
+.personal-cfvip-level{
+    position: relative;
+    float: left;
+    width: 613px;
+    height: 29px;
+    border: 1px solid #cac4a7;
+    background-color: #d5cda4;
+    border-radius: 15px;
+}
+
+.mt20{
+    margin-top: 20px;
+}
+
+.personal-cfvip-level span{
+    display: block;
+    width: 0%;
+    max-width: 100%;
+    height: 29px;
+    background-color: #c03304;
+    border-radius: 15px;
+}
+
+.personal-cfvip-level ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 613px;
+    height: 29px;
+}
+
+.personal-cfvip-level li{
+    position: relative;
+    float: left;
+    width: 118px;
+    height: 29px;
+    border-right: 2px dashed #ebe7d4;
+    background-color: transparent;
+}
+
+.personal-cfvip-level .last{
+    width: 133px;
+    border-right: none;
+}
+
+.personal-cfvip-level em{
+    display: block;
+    position: absolute;
+    top: 34px;
+    left: -35px;
+    width: 70px;
+    height: 36px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #4c4d4e;
+    text-align: center;
+}
+
+.personal-cfvip-level .last-em{
+    left: 90px;
+}
+
+.three-pti{
+    float: left;
+    width: 615px;
+    height: 199px;
+    margin-top: 66px;
+    overflow: hidden;
+}
+
+.privilege-introduce{
+    display: block;
+    float: left;
+    width: 585px;
+    border: 1px solid #e6cc9c;
+    padding: 14px;
+    position: relative;
+    background: #f9efce;
+    margin-top: 21px;
+}
+
+.ensconce{
+    display: none;
+}
+
+.privilege-introduce em{
+    display: block;
+    position: absolute;
+    width: 23px;
+    height: 22px;
+    background: url(../images/cfvip-personal-img1.png) no-repeat left top;
+    background-position: -104px -197px;
+
+}
+
+.three-pti-vip1{
+    top: -21px;
+    left: 14px;
+}
+
+.three-pti-vip2{
+    top: -21px;
+    left: 108px;
+}
+
+.three-pti-vip3{
+    top: -21px;
+    left: 230px;
+}
+
+.three-pti-vip4{
+    top: -21px;
+    left: 350px;
+}
+
+.three-pti-vip5{
+    top: -21px;
+    left: 466px;
+}
+
+.three-pti-vip6{
+    top: -21px;
+    left: 586px;
+}
+
+.three-pti-img{
+    position: relative; 
+    float: left;
+    width: 99px;
+    height: 104px;
+    background-color: #757162;
+}
+
+.three-pti-img img{
+    display: block;
+    width: 99px;
+    height: 104px;
+}   
+
+.three-pti-img p{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 34px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 700;
+    color: #e9e9e9;
+}
+
+.three-pti-title {
+    float: left;
+    width: 463px;
+    margin-left: 20px;
+}
+
+.three-pti-title strong{
+    display: block;
+    width: 463px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #764215;
+}
+
+.three-pti-a1{
+    display: inline;
+    width: 182px;
+    height: 42px;
+    line-height: 42px;
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 140px;
+}
+
+.three-pti-a-img{
+    background: url(../images/cfvip-personal-text-background.png) 0 0;
+    background-repeat: no-repeat;
+}
+
+.three-pti-a2{
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 524px;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #d03b07;
+    text-decoration: underline;
+}
+
+.upgrade-h3{
+    float: left;
+    width: 578px;
+    height: 25px;
+    line-height: 25px;
+    color: #000;
+    font-size: 22px;
+    font-weight: normal;
+    padding-left: 35px;
+    background-position: 0 -26px;
+}
+
+.three-upgrade{
+    position: relative;
+    float: left;
+    width: 613px;
+    height: 380px;
+    margin-top: 20px;
+}
+
+.three-upgrade-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 271px;
+    height: 172px;
+    padding: 12px;
+    background: url(../images/cfvip-personal-img1.png) no-repeat left top;
+}
+
+.three-upgrade h4{
+    width: 271px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #764215;
+    text-align: center;
+}
+
+.three-upgrade-box p{
+    width: 271px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #4c4d4e;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.three-upgrade-renew{
+    width: 271px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.three-upgrade-renew a{
+    display: block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    background: url(../images/cfvip-personal-text-background.png) no-repeat 0 0;
+    background-position: 0 -43px;
+}
+
+.upgrade-box2{
+    left: 306px;
+}
+
+.three-upgrade-recharge{
+    width: 271px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.three-upgrade-recharge a{
+    display: block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    background: url(../images/cfvip-personal-text-background.png) no-repeat 0 0;
+    background-position: 0 -43px;
 }
